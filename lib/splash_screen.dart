@@ -7,7 +7,7 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Islami'),
+        title: const Text('Islami quraan'),
       ),
       body: const Text('splash screen'),
     );
