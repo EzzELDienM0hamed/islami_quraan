@@ -8,6 +8,7 @@ class SplashScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       backgroundColor: Colors.red,
+      floatingActionButton: FloatingActionButton(onPressed: () {}),
     );
   }
 }
