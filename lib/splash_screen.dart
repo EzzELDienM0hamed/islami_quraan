@@ -8,7 +8,6 @@ class SplashScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       backgroundColor: Colors.red,
-      body: const Text('splash screen'),
     );
   }
 }
