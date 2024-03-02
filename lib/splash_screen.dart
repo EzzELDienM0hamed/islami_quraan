@@ -9,6 +9,7 @@ class SplashScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Islami Quraan'),
       ),
+      backgroundColor: Colors.red,
       body: const Text('splash screen'),
     );
   }
