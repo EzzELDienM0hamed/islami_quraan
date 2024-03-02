@@ -6,10 +6,7 @@ class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Islami Quraan'),
-      ),
-      backgroundColor: Colors.red,
+      appBar: AppBar(),
       body: const Text('splash screen'),
     );
   }
